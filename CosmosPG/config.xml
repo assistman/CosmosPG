@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget id="com.marketstrader.cosmos" version="70.93" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <description>
+        TradeTech Markets LIMITED
+    </description>
+    
+    <name short="Markets.com">Markets.com</name>
+    <plugin name="cordova-plugin-battery-status" />
+    <plugin name="cordova-plugin-camera" />
+    <plugin name="cordova-plugin-media-capture" />
+    <plugin name="cordova-plugin-console" />
+    <plugin name="cordova-plugin-contacts" />
+    <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-device-motion" />
+    <plugin name="cordova-plugin-device-orientation" />
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-file-transfer" />
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-globalization" />
+    <plugin name="cordova-plugin-inappbrowser" />
+    <plugin name="cordova-plugin-media" />
+    <plugin name="cordova-plugin-statusbar" />
+    <plugin name="cordova-plugin-network-information" />
+    <plugin name="cordova-plugin-vibration" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    
+    <preference name="phonegap-version" value="cli-8.1.1" />
+    <preference name="orientation"                value="default" />
+    <preference name="target-device"              value="universal" />
+    <preference name="fullscreen"                 value="true" />
+    <preference name="webviewbounce"              value="false" />
+    <preference name="prerendered-icon"           value="false" />
+    <preference name="stay-in-webview"            value="false" />
+    <preference name="ios-statusbarstyle"         value="black-opaque" />
+    <preference name="detect-data-types"          value="true" />
+    <preference name="exit-on-suspend"            value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
+    <preference name="GapBetweenPages" value="0"/>
+    
+    <platform name="ios">
+        <preference name="SuppressesIncrementalRendering" value="false"/>
+        
+        <icon height="167" src="resources/icon/ios/AppIcon167x167.png" width="167" />
+        <icon height="76" src="resources/icon/ios/AppIcon76X76.png" width="76" />
+        <icon height="152" src="resources/icon/ios/AppIcon76X76@2x.png.png" width="152" />
+        <icon height="60" src="resources/icon/ios/AppIcon60X60.png" width="60" />
+        <icon height="120" src="resources/icon/ios/AppIcon60X60@2x.png" width="120" />
+        <icon height="180" src="resources/icon/ios/AppIcon60X60@3x.png" width="180" />
+        <icon height="40" src="resources/icon/ios/AppIcon40X40.png" width="40" />
+        <icon height="80" src="resources/icon/ios/AppIcon40X40@2x.png" width="80" />
+        <icon height="120" src="resources/icon/ios/AppIcon40X40@3x.png" width="120" />
+        <icon height="29" src="resources/icon/ios/AppIcon29X29.png" width="29" />
+        <icon height="58" src="resources/icon/ios/AppIcon29X29@2x.png" width="58" />
+        <icon height="87" src="resources/icon/ios/AppIcon29X29@3x.png" width="87" />
+        <icon height="1024" src="resources/icon/ios/AppIcon1024X1024.png" width="1024" />
+        
+        <!-- 2732x2732 -->
+        <splash src="resources/splash/ios/Default@2x~universal~anyany.png" />
+        
+        <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='false' allows-local-networking='true' />
+        <allow-intent href="http://*/*" />
+        <allow-intent href="https://*/*" />
+        <allow-intent href="telprompt:*" />
+        <allow-intent href="tel:*" />
+        <allow-intent href="sms:*" />
+        <allow-intent href="mailto:*" />
+        <allow-intent href="geo:*" />
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
+        <string>70.93</string>
+    </gap:config-file>
+    
+</widget>
