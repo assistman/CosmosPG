@@ -70,6 +70,14 @@
         .ni-brand-icon {
             background: url(brands/markets/images/ni-brand-icon.png) no-repeat;
         }
+        body {
+            padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+            padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+        }
+        .mainScreenFooter {
+            margin-bottom: constant(safe-area-inset-bottom); /* iOS 11.0 */
+            margin-bottom: env(safe-area-inset-bottom); /* iOS 11.2 */
+        }
     </style>
 
     <link rel="preload" href="fonts/1KWMyx7m-L0fkQGwYhWwuuvvDin1pK8aKteLpeZ5c0A.woff2" as="font" type="font/woff2" crossorigin>
@@ -134,6 +142,7 @@
 <link href="styles.2e4ab0838412.css" rel="stylesheet"></head>
 <body>
 <div class="screen wrapper" id="wrapper">
+    
     <div class="loading-container loading-fixed loading-translucent-1">
         <div class="loading-box">
             <div class="loading-content">
@@ -143,6 +152,8 @@
             </div>
         </div>
     </div>
+</div>
+<div class="mainScreenFooter">
 </div>
 <div class="ios-spacer"></div>
 <div id="popups-placeholder"></div>
