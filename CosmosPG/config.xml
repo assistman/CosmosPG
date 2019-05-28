@@ -19,9 +19,7 @@
     <plugin name="cordova-plugin-file-transfer" />
     <plugin name="cordova-plugin-geolocation" />
     <plugin name="cordova-plugin-globalization" />
-    <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-media" />
-    <plugin name="cordova-plugin-statusbar" />
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-vibration" />
     <plugin name="cordova-plugin-splashscreen" />
@@ -33,15 +31,14 @@
     <preference name="fullscreen"                 value="true" />
     <preference name="webviewbounce"              value="false" />
     <preference name="prerendered-icon"           value="false" />
-    <preference name="ios-statusbarstyle"         value="white" />
-    <preference name="detect-data-types"          value="true" />
+    <preference name="detect-data-types"          value="false" />
     <preference name="exit-on-suspend"            value="false" />
     <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
     <preference name="GapBetweenPages" value="0"/>
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false"/>
 
     <platform name="ios">
-        <preference name="SuppressesIncrementalRendering" value="false"/>
         
         <icon height="167" src="resources/icon/ios/AppIcon167x167.png" width="167" />
         <icon height="76" src="resources/icon/ios/AppIcon76X76.png" width="76" />
