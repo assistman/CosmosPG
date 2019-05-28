@@ -65,7 +65,7 @@
         <splash src="resources/splash/ios/Default@3x~iphone~comcom.png" />
         
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
-        <allow-intent href="cosmosweb://*" />
+        <allow-navigation href="cosmosweb://*" />
         <allow-intent href="http://*/*" />
         <allow-intent href="https://*/*" />
         <allow-intent href="http://*" />
