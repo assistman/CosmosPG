@@ -65,8 +65,11 @@
         <splash src="resources/splash/ios/Default@3x~iphone~comcom.png" />
         
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
+        <allow-navigation href="cosmosweb://*" />
         <allow-intent href="http://*/*" />
         <allow-intent href="https://*/*" />
+        <allow-intent href="http://*" />
+        <allow-intent href="https://*" />
         <allow-intent href="telprompt:*" />
         <allow-intent href="tel:*" />
         <allow-intent href="sms:*" />
@@ -74,7 +77,6 @@
         <allow-intent href="geo:*" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <allow-intent href="cosmosweb://*" />
     </platform>
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
         <string>70.93</string>
