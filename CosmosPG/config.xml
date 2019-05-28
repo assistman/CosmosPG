@@ -33,8 +33,7 @@
     <preference name="fullscreen"                 value="true" />
     <preference name="webviewbounce"              value="false" />
     <preference name="prerendered-icon"           value="false" />
-    <preference name="stay-in-webview"            value="false" />
-    <preference name="ios-statusbarstyle"         value="black-opaque" />
+    <preference name="ios-statusbarstyle"         value="white" />
     <preference name="detect-data-types"          value="true" />
     <preference name="exit-on-suspend"            value="false" />
     <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
@@ -67,7 +66,8 @@
         <splash src="resources/splash/ios/Default@3x~iphone~comany.png" />
         <splash src="resources/splash/ios/Default@3x~iphone~comcom.png" />
         
-        <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='false' allows-local-networking='true' />
+        <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
+
         <allow-intent href="http://*/*" />
         <allow-intent href="https://*/*" />
         <allow-intent href="telprompt:*" />
