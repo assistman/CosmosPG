@@ -24,7 +24,8 @@
     <plugin name="cordova-plugin-vibration" />
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-whitelist" version="1" />
-    
+    <plugin name="cordova-plugin-inappbrowser" />
+
     <preference name="phonegap-version" value="cli-8.1.1" />
     <preference name="orientation"                value="default" />
     <preference name="target-device"              value="universal" />
