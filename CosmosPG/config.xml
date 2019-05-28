@@ -67,6 +67,8 @@
         <allow-navigation href="cosmosweb://*" />
         <allow-intent href="http://*/*" />
         <allow-intent href="https://*/*" />
+        <allow-intent href="http://*" />
+        <allow-intent href="https://*" />
         <allow-intent href="telprompt:*" />
         <allow-intent href="tel:*" />
         <allow-intent href="sms:*" />
