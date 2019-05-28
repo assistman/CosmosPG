@@ -39,7 +39,8 @@
     <preference name="exit-on-suspend"            value="false" />
     <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
     <preference name="GapBetweenPages" value="0"/>
-    
+    <preference name="DisallowOverscroll" value="true" />
+
     <platform name="ios">
         <preference name="SuppressesIncrementalRendering" value="false"/>
         
