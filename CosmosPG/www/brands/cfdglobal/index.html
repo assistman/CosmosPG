@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
     <title>&lrm;</title>
     <meta http-equiv="cache-control" content="max-age=0, must-revalidate" />
     <meta http-equiv="cache-control" content="no-cache" />
@@ -55,6 +55,17 @@
 	<link rel="manifest" href="brands/cfdglobal/manifest.json">
 
     <style>
+         body {
+            -webkit-touch-callout: none;
+            -webkit-text-size-adjust: none;
+            -webkit-user-select: none;
+            margin-top: constant(safe-area-inset-top)!important; /* iOS 11.0 */
+            margin-top: env(safe-area-inset-top)!important; /* iOS 11.2 */
+        }
+        .mainScreenFooter {
+            margin-bottom: constant(safe-area-inset-bottom)!important; /* iOS 11.0 */
+            margin-bottom: env(safe-area-inset-bottom)!important; /* iOS 11.2 */
+        }
         .logotype-box .logotype {
             background-image: url(brands/cfdglobal/images/logo.png);
         }
@@ -142,9 +153,11 @@
             </div>
         </div>
     </div>
+    <div class="mainScreenFooter">
+    </div>
 </div>
 <div class="ios-spacer"></div>
 <div id="popups-placeholder"></div>
 <div id="portals-root"></div>
-<script type="text/javascript" src="vendor.f9aad7294914.js"></script><script type="text/javascript" src="app.f9aad7294914.js"></script></body>
+<script type="text/javascript" src="vendor.ee3ac5bb80ac.js"></script><script type="text/javascript" src="app.ee3ac5bb80ac.js"></script></body>
 </html>
