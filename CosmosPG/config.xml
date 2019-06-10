@@ -44,7 +44,7 @@
     <preference name="SuppressesIncrementalRendering" value="false"/>
 
     <platform name="ios">
-        <plugin name="cordova-plugin-facebook4" source="npm" spec="1.7.4">
+        <plugin name="cordova-plugin-facebook4" source="npm" spec="4.2.1">
             <param name="APP_ID" value="714426151973006" />
             <param name="APP_NAME" value="Markets.com" />
         </plugin>
