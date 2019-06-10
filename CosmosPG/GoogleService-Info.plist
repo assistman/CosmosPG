@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>21155591901-b2kemp040bcirnpopmk4i5vho5ajr9eg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.21155591901-b2kemp040bcirnpopmk4i5vho5ajr9eg</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>21155591901-33j2sormqd32njcg0dlqvhqvscnqbl1p.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>21155591901</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.marketstrader.cosmos</string>
+	<key>PROJECT_ID</key>
+	<string>api-project-21155591901</string>
+	<key>STORAGE_BUCKET</key>
+	<string>api-project-21155591901.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:21155591901:ios:c9e917dae4fe1fbd</string>
+	<key>DATABASE_URL</key>
+	<string>https://api-project-21155591901.firebaseio.com</string>
+</dict>
+</plist>
