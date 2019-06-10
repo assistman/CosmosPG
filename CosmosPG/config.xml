@@ -44,10 +44,14 @@
     <preference name="SuppressesIncrementalRendering" value="false"/>
 
     <platform name="ios">
-        <gap:plugin name="cordova-plugin-facebook4" source="npm" spec="1.7.4">
+        <plugin name="cordova-plugin-facebook4" source="npm" spec="1.7.4">
             <param name="APP_ID" value="714426151973006" />
             <param name="APP_NAME" value="Markets.com" />
-        </gap:plugin>
+        </plugin>
+        
+        <plugin name="cordova-plugin-googleplus" source="npm">
+            <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.21155591901-l7dtk08ic70tb04b8akj6gaujntmoec4" />
+        </plugin>
         
         <icon height="167" src="resources/icon/ios/AppIcon167x167.png" width="167" />
         <icon height="76" src="resources/icon/ios/AppIcon76X76.png" width="76" />
