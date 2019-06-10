@@ -27,7 +27,7 @@
     <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0">
         <param name="SENDER_ID" value="21155591901" />
     </plugin>
-    <gap:plugin name="com.phonegap.plugins.facebookconnect">
+    <gap:plugin name="cordova-plugin-facebook4" spec:"~4.2.1">
         <param name="APP_ID" value="714426151973006" />
         <param name="APP_NAME" value="Markets.com" />
     </gap:plugin>
