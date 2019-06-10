@@ -27,10 +27,9 @@
     <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0">
         <param name="SENDER_ID" value="21155591901" />
     </plugin>
-    <gap:plugin name="cordova-plugin-facebook4" version:"4.2.1">
-        <param name="APP_ID" value="714426151973006" />
-        <param name="APP_NAME" value="Markets.com" />
-    </gap:plugin>
+
+
+
     <preference name="phonegap-version" value="cli-8.1.1" />
     <preference name="orientation"                value="default" />
     <preference name="target-device"              value="universal" />
@@ -45,6 +44,11 @@
     <preference name="SuppressesIncrementalRendering" value="false"/>
 
     <platform name="ios">
+        <gap:plugin name="cordova-plugin-facebook4" source="npm" spec="1.7.4">
+            <param name="APP_ID" value="714426151973006" />
+            <param name="APP_NAME" value="Markets.com" />
+        </gap:plugin>
+        
         <icon height="167" src="resources/icon/ios/AppIcon167x167.png" width="167" />
         <icon height="76" src="resources/icon/ios/AppIcon76X76.png" width="76" />
         <icon height="152" src="resources/icon/ios/AppIcon76X76@2x.png" width="152" />
