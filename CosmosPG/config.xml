@@ -45,13 +45,13 @@
         </plugin>
         
         <plugin name="cordova-plugin-googleplus" source="npm">
-            <variable name="PLAY_SERVICES_VERSION" value="11.8.0" />
+            <variable name="PLAY_SERVICES_VERSION" value="15.+" />
             <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.21155591901-b2kemp040bcirnpopmk4i5vho5ajr9eg" />
         </plugin>
         
-        <plugin name="phonegap-plugin-push" spec="~2.2.2">
+        <plugin name="phonegap-plugin-push" source="npm">
             <param name="SENDER_ID" value="21155591901" />
-            <variable name="PLAY_SERVICES_VERSION" value="11.8.0" />
+            <variable name="PLAY_SERVICES_VERSION" value="15.+" />
         </plugin>
         
         <icon height="167" src="resources/icon/ios/AppIcon167x167.png" width="167" />
