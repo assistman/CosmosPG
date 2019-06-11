@@ -46,7 +46,7 @@
         
         <plugin name="cordova-plugin-googleplus" source="npm">
             <variable name="PLAY_SERVICES_VERSION" value="11.8.0" />
-            <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.21155591901-l7dtk08ic70tb04b8akj6gaujntmoec4" />
+            <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.21155591901-b2kemp040bcirnpopmk4i5vho5ajr9eg" />
         </plugin>
         
         <plugin name="phonegap-plugin-push" spec="~2.2.2">
