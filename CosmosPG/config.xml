@@ -79,29 +79,29 @@
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
         
         <!-- Contact Us QA -->
-        <allow-navigation href="https://beta-global-qa.markets.com/contact-phone/*" />
+        <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact Us Prod -->
-        <allow-navigation href="https://www.markets.com/contact-phone/*" />
+        <allow-intent href="https://www.markets.com/contact-phone/*" />
         
         <!-- MetaTrader Trading Conditions QA -->
-        <allow-navigation href="https://beta-global-qa.markets.com/metatrader-trading-conditions/*" />
+        <allow-intent href="https://beta-global-qa.markets.com/metatrader-trading-conditions/*" />
         <!-- MetaTrader Trading Conditions Prod -->
-        <allow-navigation href="https://www.markets.com/metatrader-trading-conditions/*" />
+        <allow-intent href="https://www.markets.com/metatrader-trading-conditions/*" />
         
         <!-- Account Statement  QA -->
-        <allow-navigation href="https://cosmos-qa-live.markets.com/dxdeal-report/s*" />
+        <allow-intent href="https://cosmos-qa-live.markets.com/dxdeal-report/s*" />
         <!-- Account Statement  Prod -->
-        <allow-navigation href="https://live-trader.markets.com/dxdeal-report/*" />
+        <allow-intent href="https://live-trader.markets.com/dxdeal-report/*" />
         
         <!-- Legal documents  Prod -->
-        <allow-navigation href="https://beta-global-qa.markets.com/regulation-and-legal-pack/*" />
+        <allow-intent href="https://beta-global-qa.markets.com/regulation-and-legal-pack/*" />
         <!-- Legal documents  Prod -->
-        <allow-navigation href="https://www.markets.com/regulation-and-legal-pack/*" />
+        <allow-intent href="https://www.markets.com/regulation-and-legal-pack/*" />
 
         <!-- Contact phone  QA -->
-        <allow-navigation href="https://beta-global-qa.markets.com/contact-phone/*" />
+        <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact phone Prod -->
-        <allow-navigation href="https://www.markets.com/contact-phone/*" />
+        <allow-intent href="https://www.markets.com/contact-phone/*" />
 
         <allow-intent href="http://*/*" />
         <allow-intent href="https://*/*" />
