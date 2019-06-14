@@ -77,6 +77,11 @@
         
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
         
+        <allow-navigation href="http://*/*" />
+        <allow-navigation href="https://*/*" />
+        <allow-navigation href="http://*" />
+        <allow-navigation href="https://*" />
+        
         <!-- Contact Us QA -->
         <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact Us Prod -->
@@ -101,11 +106,6 @@
         <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact phone Prod -->
         <allow-intent href="https://www.markets.com/contact-phone/*" />
-
-        <allow-intent href="http://*/*" />
-        <allow-intent href="https://*/*" />
-        <allow-intent href="http://*" />
-        <allow-intent href="https://*" />
         <allow-intent href="telprompt:*" />
         <allow-intent href="tel:*" />
         <allow-intent href="sms:*" />
