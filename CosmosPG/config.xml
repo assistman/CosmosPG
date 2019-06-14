@@ -77,7 +77,31 @@
         <splash src="resources/splash/ios/Default@3x~iphone~comcom.png" />
         
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
-        <allow-navigation href="*://*" />
+        <!-- Contact Us QA -->
+        <allow-navigation href="https://beta-global-qa.markets.com/contact-phone/?noredirect=1" />
+        <!-- Contact Us Prod -->
+        <allow-navigation href="https://www.markets.com/contact-phone/?noredirect=1" />
+        
+        <!-- MetaTrader Trading Conditions QA -->
+        <allow-navigation href="https://beta-global-qa.markets.com/metatrader-trading-conditions/?noredirect=1" />
+        <!-- MetaTrader Trading Conditions Prod -->
+        <allow-navigation href="https://www.markets.com/metatrader-trading-conditions/?noredirect=1" />
+        
+        <!-- Account Statement  QA -->
+        <allow-navigation href="https://cosmos-qa-live.markets.com/dxdeal-report/statement?token=ZXlKaGJHY2lPaUpGVXpVeE1pSjkuZXlKemRXSWlPaUk1TlRjeE1Ua3dJaXdpYm1KbUlqb3hOVFl3TlRFek9EYzBMQ0pwWVhRaU9qRTFOakExTVRNNE56UXNJbVY0Y0NJNk1UVTJNRFV4TXprek5IMC5BTHBIQ3ZPWjhpX19kMloxM1piTThRdTIwMVFlSklOeUMyclMwOFhkcmpKY0NWZk5uQXlBb3VSeEtqYzhHZ09mM1dMb0dVcllkTjRsUktUcUg5bmdQRE1iQUpTaXg1UEdUaUhSRzdYOEpqOVRhdGVzeHpzbGhfRHk0MTVxWEYyQ1hHbHZCMU5WTEx6R1JNMFJyRC1EMmRuQlBpbVRVWmhVRnZwVU1IUE16NkRXbE9mbA==&locale=en-US&showDownloadButton=true&userName=mk1114530&from=1559242800000&to=1560538799999&timeZone=Etc/GMT" />
+        <!-- Account Statement  Prod -->
+        <allow-navigation href="https://live-trader.markets.com/dxdeal-report/statement?token=ZXlKaGJHY2lPaUpGVXpVeE1pSjkuZXlKemRXSWlPaUkwTVRneE1UZzJJaXdpYm1KbUlqb3hOVFl3TlRFek9UQTJMQ0pwWVhRaU9qRTFOakExTVRNNU1EWXNJbVY0Y0NJNk1UVTJNRFV4TXprMk5uMC5BYWhLdHN2Zmp6Uk9Va0d3TEg3XzhHQ3hkcmt4Y0JSM1ZwcEpxSW1YQWtOZjRnc05QZ3NRRHhjbHU4Z1JSSDZtM0psOGlIbERTblFiZi1ybzQxZG5Yc0RBQVlSYWt4YUdST280clQ4bl9taUFVd0VveWhUYmhGazBNWWN3dFJ3YjFVRGlUenl6LVY5MHltX2VaQlM0VERGV1BjSlE3dTA0OTBCZFhmb1JHU3BXdHcxcA==&locale=en-US&showDownloadButton=true&userName=mk1652489&from=1559250000000&to=1560545999999&timeZone=Etc/GMT" />
+        
+        <!-- Legal documents  Prod -->
+        <allow-navigation href="https://beta-global-qa.markets.com/regulation-and-legal-pack/?noredirect=1" />
+        <!-- Legal documents  Prod -->
+        <allow-navigation href="https://www.markets.com/regulation-and-legal-pack/?noredirect=1" />
+
+        <!-- Contact phone  QA -->
+        <allow-navigation href="https://beta-global-qa.markets.com/contact-phone/?noredirect=1" />
+        <!-- Contact phone Prod -->
+        <allow-navigation href="https://www.markets.com/contact-phone/?noredirect=1" />
+
         <allow-intent href="http://*/*" />
         <allow-intent href="https://*/*" />
         <allow-intent href="http://*" />
