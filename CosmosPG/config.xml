@@ -76,12 +76,6 @@
         <splash src="resources/splash/ios/Default@3x~iphone~comcom.png" />
         
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
-        
-        <allow-navigation href="http://*/*" />
-        <allow-navigation href="https://*/*" />
-        <allow-navigation href="http://*" />
-        <allow-navigation href="https://*" />
-        
         <!-- Contact Us QA -->
         <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact Us Prod -->
