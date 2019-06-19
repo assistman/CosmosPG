@@ -101,15 +101,10 @@
         <!-- Contact phone Prod -->
         <allow-intent href="https://www.markets.com/contact-phone/?noredirect=1" />
         <allow-navigation href="*" />
-        <allow-intent href="http://*/*" />
-        <allow-intent href="https://*/*" />
-        <allow-intent href="http://*" />
-        <allow-intent href="https://*" />
         <allow-intent href="telprompt:*" />
         <allow-intent href="tel:*" />
         <allow-intent href="sms:*" />
         <allow-intent href="mailto:*" />
-        <allow-intent href="geo:*" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
