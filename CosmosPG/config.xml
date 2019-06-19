@@ -15,7 +15,6 @@
     <plugin name="cordova-plugin-dialogs" />
     <plugin name="cordova-plugin-file" />
     <plugin name="cordova-plugin-file-transfer" />
-    <plugin name="cordova-plugin-geolocation" />
     <plugin name="cordova-plugin-globalization" />
     <plugin name="cordova-plugin-media" />
     <plugin name="cordova-plugin-network-information" />
@@ -77,25 +76,14 @@
         <splash src="resources/splash/ios/Default@3x~iphone~comcom.png" />
         
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
+        <allow-navigation href="*" />
+        <allow-intent href="*" />
         
-        <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
-        <allow-navigation href="*://*" />
-        <allow-intent href="http://*/*" />
-        <allow-intent href="https://*/*" />
-        <allow-intent href="http://*" />
-        <allow-intent href="https://*" />
         <allow-intent href="telprompt:*" />
         <allow-intent href="tel:*" />
         <allow-intent href="sms:*" />
         <allow-intent href="mailto:*" />
-        <allow-intent href="geo:*" />
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-        <allow-intent href="telprompt:*" />
-        <allow-intent href="tel:*" />
         <allow-intent href="sms:*" />
-        <allow-intent href="mailto:*" />
-        <allow-intent href="geo:*" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
