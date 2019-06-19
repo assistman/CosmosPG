@@ -77,14 +77,14 @@
         
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
         <!-- Contact Us QA -->
-        <allow-intent href="https://beta-global-qa.markets.com/contact-phone/?noredirect=1" />
+        <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact Us Prod -->
-        <allow-intent href="https://www.markets.com/contact-phone/?noredirect=1" />
+        <allow-intent href="https://www.markets.com/contact-phone/*" />
         
         <!-- MetaTrader Trading Conditions QA -->
-        <allow-intent href="https://beta-global-qa.markets.com/metatrader-trading-conditions/?noredirect=1" />
+        <allow-intent href="https://beta-global-qa.markets.com/metatrader-trading-conditions/*" />
         <!-- MetaTrader Trading Conditions Prod -->
-        <allow-intent href="https://www.markets.com/metatrader-trading-conditions/?noredirect=1" />
+        <allow-intent href="https://www.markets.com/metatrader-trading-conditions/*" />
         
         <!-- Account Statement  QA -->
         <allow-intent href="https://cosmos-qa-live.markets.com/dxdeal-report/*" />
@@ -92,14 +92,15 @@
         <allow-intent href="https://live-trader.markets.com/dxdeal-report/*" />
         
         <!-- Legal documents  Prod -->
-        <allow-intent href="https://beta-global-qa.markets.com/regulation-and-legal-pack/?noredirect=1" />
+        <allow-intent href="https://beta-global-qa.markets.com/regulation-and-legal-pack/*" />
         <!-- Legal documents  Prod -->
-        <allow-intent href="https://www.markets.com/regulation-and-legal-pack/?noredirect=1" />
+        <allow-intent href="https://www.markets.com/regulation-and-legal-pack/*" />
         
         <!-- Contact phone  QA -->
-        <allow-intent href="https://beta-global-qa.markets.com/contact-phone/?noredirect=1" />
+        <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact phone Prod -->
-        <allow-intent href="https://www.markets.com/contact-phone/?noredirect=1" />
+        <allow-intent href="https://www.markets.com/contact-phone/*" />
+        
         <allow-navigation href="*" />
         <allow-intent href="telprompt:*" />
         <allow-intent href="tel:*" />
