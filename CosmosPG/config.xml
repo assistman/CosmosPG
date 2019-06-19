@@ -77,30 +77,20 @@
         <splash src="resources/splash/ios/Default@3x~iphone~comcom.png" />
         
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
-        <!-- Contact Us QA -->
-        <allow-navigation href="https://beta-global-qa.markets.com/contact-phone/*" />
-        <!-- Contact Us Prod -->
-        <allow-navigation href="https://www.markets.com/contact-phone/*" />
-
-        <!-- MetaTrader Trading Conditions QA -->
-        <allow-navigation href="https://beta-global-qa.markets.com/metatrader-trading-conditions/*" />
-        <!-- MetaTrader Trading Conditions Prod -->
-        <allow-navigation href="https://www.markets.com/metatrader-trading-conditions/*" />
-
-        <!-- Account Statement  QA -->
-        <allow-navigation href="https://cosmos-qa-live.markets.com/dxdeal-report/s*" />
-        <!-- Account Statement  Prod -->
-        <allow-navigation href="https://live-trader.markets.com/dxdeal-report/*" />
-
-        <!-- Legal documents  Prod -->
-        <allow-navigation href="https://beta-global-qa.markets.com/regulation-and-legal-pack/*" />
-        <!-- Legal documents  Prod -->
-        <allow-navigation href="https://www.markets.com/regulation-and-legal-pack/*" />
-
-        <!-- Contact phone  QA -->
-        <allow-navigation href="https://beta-global-qa.markets.com/contact-phone/*" />
-        <!-- Contact phone Prod -->
-        <allow-navigation href="https://www.markets.com/contact-phone/*" />
+        
+        <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
+        <allow-navigation href="*://*" />
+        <allow-intent href="http://*/*" />
+        <allow-intent href="https://*/*" />
+        <allow-intent href="http://*" />
+        <allow-intent href="https://*" />
+        <allow-intent href="telprompt:*" />
+        <allow-intent href="tel:*" />
+        <allow-intent href="sms:*" />
+        <allow-intent href="mailto:*" />
+        <allow-intent href="geo:*" />
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
         <allow-intent href="telprompt:*" />
         <allow-intent href="tel:*" />
         <allow-intent href="sms:*" />
