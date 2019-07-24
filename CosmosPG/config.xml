@@ -29,38 +29,38 @@
         <param name="SENDER_ID" value="21155591901" />
     </plugin>
     
-    <preference name="phonegap-version" value="cli-8.1.1" />
-    <preference name="orientation"                value="default" />
-    <preference name="target-device"              value="universal" />
-    <preference name="fullscreen"                 value="true" />
-    <preference name="webviewbounce"              value="false" />
-    <preference name="prerendered-icon"           value="false" />
-    <preference name="detect-data-types"          value="false" />
-    <preference name="exit-on-suspend"            value="false" />
+    <preference name="phonegap-version"                  value="cli-8.1.1" />
+    <preference name="orientation"                       value="default" />
+    <preference name="target-device"                     value="universal" />
+    <preference name="fullscreen"                        value="true" />
+    <preference name="webviewbounce"                     value="false" />
+    <preference name="prerendered-icon"                  value="false" />
+    <preference name="detect-data-types"                 value="false" />
+    <preference name="exit-on-suspend"                   value="false" />
     <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
-    <preference name="GapBetweenPages" value="0"/>
-    <preference name="DisallowOverscroll" value="true" />
-    <preference name="SuppressesIncrementalRendering" value="false"/>
+    <preference name="GapBetweenPages"                   value="0"/>
+    <preference name="DisallowOverscroll"                value="true" />
+    <preference name="SuppressesIncrementalRendering"    value="false"/>
 
     <platform name="ios">
         <plugin name="cordova-plugin-googleplus" source="npm">
-            <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5" />
+            <variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5" />
             <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />
         </plugin>
 
         
-        <icon height="167" src="resources/icon/ios/AppIcon167x167.png" width="167" />
-        <icon height="76" src="resources/icon/ios/AppIcon76X76.png" width="76" />
-        <icon height="152" src="resources/icon/ios/AppIcon76X76@2x.png" width="152" />
-        <icon height="60" src="resources/icon/ios/AppIcon60X60.png" width="60" />
-        <icon height="120" src="resources/icon/ios/AppIcon60X60@2x.png" width="120" />
-        <icon height="180" src="resources/icon/ios/AppIcon60X60@3x.png" width="180" />
-        <icon height="40" src="resources/icon/ios/AppIcon40X40.png" width="40" />
-        <icon height="80" src="resources/icon/ios/AppIcon40X40@2x.png" width="80" />
-        <icon height="120" src="resources/icon/ios/AppIcon40X40@3x.png" width="120" />
-        <icon height="29" src="resources/icon/ios/AppIcon29X29.png" width="29" />
-        <icon height="58" src="resources/icon/ios/AppIcon29X29@2x.png" width="58" />
-        <icon height="87" src="resources/icon/ios/AppIcon29X29@3x.png" width="87" />
+        <icon height="167"  src="resources/icon/ios/AppIcon167x167.png"   width="167" />
+        <icon height="76"   src="resources/icon/ios/AppIcon76X76.png"     width="76" />
+        <icon height="152"  src="resources/icon/ios/AppIcon76X76@2x.png"  width="152" />
+        <icon height="60"   src="resources/icon/ios/AppIcon60X60.png"     width="60" />
+        <icon height="120"  src="resources/icon/ios/AppIcon60X60@2x.png"  width="120" />
+        <icon height="180"  src="resources/icon/ios/AppIcon60X60@3x.png"  width="180" />
+        <icon height="40"   src="resources/icon/ios/AppIcon40X40.png"     width="40" />
+        <icon height="80"   src="resources/icon/ios/AppIcon40X40@2x.png"  width="80" />
+        <icon height="120"  src="resources/icon/ios/AppIcon40X40@3x.png"  width="120" />
+        <icon height="29"   src="resources/icon/ios/AppIcon29X29.png"     width="29" />
+        <icon height="58"   src="resources/icon/ios/AppIcon29X29@2x.png"  width="58" />
+        <icon height="87"   src="resources/icon/ios/AppIcon29X29@3x.png"  width="87" />
         <icon height="1024" src="resources/icon/ios/AppIcon1024X1024.png" width="1024" />
         
         <splash src="resources/splash/ios/Default@2x~ipad~anyany.png" />
@@ -114,7 +114,6 @@
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
         <string>1.0</string>
     </gap:config-file>
-    
 </widget>
 
 
