@@ -113,13 +113,10 @@
         </array>
     </gap:config-file>
     
-    <gap:config-file platform="ios" parent="CFBundleURLTypes" overwrite="false">
+    <gap:config-file platform="ios" parent="CFBundleURLTypes" overwrite="true">
+        <key>CFBundleURLTypes</key>
         <array>
             <dict>
-                <key>CFBundleTypeRole</key>
-                    <string>Editor</string>
-                <key>CFBundleURLName</key>
-                    <string>REVERSED_CLIENT_ID</string>
                 <key>CFBundleURLSchemes</key>
                 <array>
                     <string>com.googleusercontent.apps.21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5</string>
