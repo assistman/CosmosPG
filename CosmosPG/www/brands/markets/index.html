@@ -59,14 +59,12 @@
             -webkit-touch-callout: none;
             -webkit-text-size-adjust: none;
             -webkit-user-select: none;
+            margin-top: constant(safe-area-inset-top)!important; /* iOS 11.0 */
+            margin-top: env(safe-area-inset-top)!important; /* iOS 11.2 */
         }
-        .safe-area--top {
-            height: constant(safe-area-inset-top)!important; /* iOS 11.0 */
-            height: env(safe-area-inset-top)!important; /* iOS 11.2 */
-        }
-        .safe-area--bottom {
-            height: constant(safe-area-inset-bottom)!important; /* iOS 11.0 */
-            height: env(safe-area-inset-bottom)!important; /* iOS 11.2 */
+        .mainScreenFooter {
+            margin-bottom: constant(safe-area-inset-bottom)!important; /* iOS 11.0 */
+            margin-bottom: env(safe-area-inset-bottom)!important; /* iOS 11.2 */
         }
         .logotype-box .logotype {
             background-image: url(brands/markets/images/logo.png);
@@ -149,7 +147,6 @@
     
 </head>
 <body>
-<div class="safe-area safe-area--top"></div>
 <div class="screen wrapper" id="wrapper">
     <div class="loading-container loading-fixed loading-translucent-1">
         <div class="loading-box">
@@ -160,16 +157,11 @@
             </div>
         </div>
     </div>
-    <div class="safe-area safe-area--bottom"></div>
+    <div class="mainScreenFooter">
+    </div>
 </div>
 <div class="ios-spacer"></div>
 <div id="popups-placeholder"></div>
-<div id="balloons-placeholder">
-    <div class="balloon-message">
-        <div class="title"></div>
-        <div class="body"></div>
-    </div>
-</div>
 <div id="portals-root"></div>
-<script type="text/javascript" src="vendor.1a8148211da1.js"></script><script type="text/javascript" src="app.1a8148211da1.js"></script></body>
+<script type="text/javascript" src="vendor.9a0be397dd5d.js"></script><script type="text/javascript" src="app.9a0be397dd5d.js"></script></body>
 </html>
