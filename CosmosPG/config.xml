@@ -47,8 +47,6 @@
             <variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5" />
             <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyCqRl_-q57A6LRNibxLeg-mH6mZWbtY4oA" />
         </plugin>
-
-        
         <icon height="167"  src="resources/icon/ios/AppIcon167x167.png"   width="167" />
         <icon height="76"   src="resources/icon/ios/AppIcon76X76.png"     width="76" />
         <icon height="152"  src="resources/icon/ios/AppIcon76X76@2x.png"  width="152" />
@@ -106,13 +104,28 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <allow-intent href="file:*" />
-
     </platform>
+    
     <gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
         <array>
             <string>fetch</string>
+            <string>remote-notification</string>
         </array>
     </gap:config-file>
+    
+    <gap:config-file platform="ios" parent="CFBundleURLTypes" overwrite="true">
+        <array>
+            <dict>
+                <key>CFBundleTypeRole</key>
+                <string>Editor</string>
+                <key>CFBundleURLSchemes</key>
+                <array>
+                    <string>com.googleusercontent.apps.21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5</string>
+                </array>
+            </dict>
+        </array>
+    </gap:config-file>
+
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
         <string>1.0</string>
     </gap:config-file>
