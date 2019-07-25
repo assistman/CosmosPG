@@ -49,7 +49,7 @@
         </plugin>
         <plugin name="cordova-plugin-googleplus" source="npm">
             <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.21155591901-b2kemp040bcirnpopmk4i5vho5ajr9eg" />
-            <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />
+            <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyCqRl_-q57A6LRNibxLeg-mH6mZWbtY4oA" />
         </plugin>
 
         
