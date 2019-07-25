@@ -105,6 +105,8 @@
         <allow-intent href="mailto:*" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <allow-intent href="file:*" />
+
     </platform>
     <gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
         <array>
