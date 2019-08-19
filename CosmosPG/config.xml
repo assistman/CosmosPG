@@ -43,11 +43,15 @@
     <preference name="SuppressesIncrementalRendering" value="false"/>
 
     <platform name="ios">
+     <framework src="OpenSSL" type="podspec" spec="~> 1.0.0" />
         <plugin name="cordova-plugin-facebook4" source="npm">
             <param name="APP_ID" value="714426151973006" />
             <param name="APP_NAME" value="Markets.com" />
         </plugin>
-        
+        <plugin name="cordova-plugin-googleplus" source="npm">
+            <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.21155591901-b2kemp040bcirnpopmk4i5vho5ajr9eg" />
+            <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyCqRl_-q57A6LRNibxLeg-mH6mZWbtY4oA" />
+        </plugin>
 
         
         <icon height="167" src="resources/icon/ios/AppIcon167x167.png" width="167" />
