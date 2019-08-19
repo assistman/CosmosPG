@@ -19,6 +19,7 @@
     <plugin name="cordova-plugin-media" />
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-vibration" />
+    <plugin name="cordova-plugin-cocoapod-support" />
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
     <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
