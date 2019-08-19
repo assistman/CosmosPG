@@ -43,6 +43,7 @@
     <preference name="DisallowOverscroll"                value="true" />
     <preference name="SuppressesIncrementalRendering"    value="false"/>
     <platform name="ios">
+        <hook type="before_compile" src="hooks/beforeCompileCocoapodsHotfix.js" />
         <plugin name="cordova-plugin-googleplus" source="npm">
             <variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-3isu8mp2fid95i2o6sl3pp24t3vforrd" />
             <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />
