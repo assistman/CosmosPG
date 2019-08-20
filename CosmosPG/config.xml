@@ -4,7 +4,7 @@
     <description>
         TradeTech Markets LIMITED
     </description>
-    
+
     <name short="MARKETS.COM: Indices. FX. Stocks. Crypto">MARKETS.COM: Indices. FX. Stocks. Crypto</name>
     <plugin name="cordova-plugin-battery-status" />
     <plugin name="cordova-plugin-camera" />
@@ -29,7 +29,7 @@
     <plugin name="phonegap-plugin-push" spec="~1.9.0">
         <param name="SENDER_ID" value="21155591901" />
     </plugin>
-    
+
     <preference name="phonegap-version"                  value="cli-8.1.1" />
     <preference name="orientation"                       value="default" />
     <preference name="target-device"                     value="universal" />
@@ -44,10 +44,10 @@
     <preference name="SuppressesIncrementalRendering"    value="false"/>
     <platform name="ios">
         <hook type="before_compile" src="hooks/beforeCompileCocoapodsHotfix.js" />
-        <plugin name="cordova-plugin-googleplus" source="npm">
+        <!-- <plugin name="cordova-plugin-googleplus" source="npm">
             <variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-3isu8mp2fid95i2o6sl3pp24t3vforrd" />
             <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />
-        </plugin>
+        </plugin> -->
         <icon height="167"  src="resources/icon/ios/AppIcon167x167.png"   width="167" />
         <icon height="76"   src="resources/icon/ios/AppIcon76X76.png"     width="76" />
         <icon height="152"  src="resources/icon/ios/AppIcon76X76@2x.png"  width="152" />
@@ -61,7 +61,7 @@
         <icon height="58"   src="resources/icon/ios/AppIcon29X29@2x.png"  width="58" />
         <icon height="87"   src="resources/icon/ios/AppIcon29X29@3x.png"  width="87" />
         <icon height="1024" src="resources/icon/ios/AppIcon1024X1024.png" width="1024" />
-        
+
         <splash src="resources/splash/ios/Default@2x~ipad~anyany.png" />
         <splash src="resources/splash/ios/Default@2x~ipad~comany.png" />
         <splash src="resources/splash/ios/Default@2x~iphone~anyany.png" />
@@ -70,33 +70,33 @@
         <splash src="resources/splash/ios/Default@3x~iphone~anyany.png" />
         <splash src="resources/splash/ios/Default@3x~iphone~comany.png" />
         <splash src="resources/splash/ios/Default@3x~iphone~comcom.png" />
-        
+
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
         <!-- Contact Us QA -->
         <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact Us Prod -->
         <allow-intent href="https://www.markets.com/contact-phone/*" />
-        
+
         <!-- MetaTrader Trading Conditions QA -->
         <allow-intent href="https://beta-global-qa.markets.com/metatrader-trading-conditions/*" />
         <!-- MetaTrader Trading Conditions Prod -->
         <allow-intent href="https://www.markets.com/metatrader-trading-conditions/*" />
-        
+
         <!-- Account Statement  QA -->
         <allow-intent href="https://cosmos-qa-live.markets.com/dxdeal-report/*" />
         <!-- Account Statement  Prod -->
         <allow-intent href="https://live-trader.markets.com/dxdeal-report/*" />
-        
+
         <!-- Legal documents  Prod -->
         <allow-intent href="https://beta-global-qa.markets.com/regulation-and-legal-pack/*" />
         <!-- Legal documents  Prod -->
         <allow-intent href="https://www.markets.com/regulation-and-legal-pack/*" />
-        
+
         <!-- Contact phone  QA -->
         <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact phone Prod -->
         <allow-intent href="https://www.markets.com/contact-phone/*" />
-        
+
         <allow-navigation href="*" />
         <allow-intent href="telprompt:*" />
         <allow-intent href="tel:*" />
@@ -106,14 +106,14 @@
         <allow-intent href="itms-apps:*" />
         <allow-intent href="file:*" />
     </platform>
-    
+
     <gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
         <array>
             <string>fetch</string>
             <string>remote-notification</string>
         </array>
     </gap:config-file>
-    
+
     <gap:config-file platform="ios" parent="CFBundleURLTypes" overwrite="true">
         <key>CFBundleURLTypes</key>
         <array>
