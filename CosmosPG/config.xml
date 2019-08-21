@@ -25,13 +25,21 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
     <plugin name="cordova-plugin-buildinfo" spec="~2.0.2" />
     <plugin name="cordova-plugin-background-mode" spec="~0.7.2" />
-    <plugin name="cordova-plugin-googleplus" source="npm">
-        <variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-3isu8mp2fid95i2o6sl3pp24t3vforrd" />
-        <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />
-    </plugin>
     <preference name="android-build-tool" value="gradle" />
     <plugin name="phonegap-plugin-push" spec="~1.9.0">
         <param name="SENDER_ID" value="21155591901" />
+    </plugin>
+    <plugin id="cordova-plugin-withpods" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+        <name>A Plugin With CocoaPods Dependencies</name>
+        <description>
+            A plugin demonstrating the use of CocoaPods dependencies.
+        </description>
+
+        <dependency id="cordova-plugin-cocoapod-support"/>
+
+        <platform name="ios">
+            <pod name="GoogleSignIn" />
+        </platform>
     </plugin>
 
     <preference name="phonegap-version"                  value="cli-8.1.1" />
