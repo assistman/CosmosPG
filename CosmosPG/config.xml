@@ -26,7 +26,7 @@
     <plugin name="cordova-plugin-buildinfo" spec="~2.0.2" />
     <plugin name="cordova-plugin-background-mode" spec="~0.7.2" />
     <preference name="android-build-tool" value="gradle" />
-     <plugin name="phonegap-plugin-push" spec="~1.9.0">
+     <plugin name="phonegap-plugin-push" spec="1.9.0">
         <param name="SENDER_ID" value="21155591901" />
     </plugin>
     <plugin id="cordova-plugin-cocoapod-support">
