@@ -29,9 +29,9 @@
     <plugin name="phonegap-plugin-push" spec="1.9.0">
         <param name="SENDER_ID" value="21155591901" />
     </plugin>
-    <!-- <plugin id="cordova-plugin-cocoapod-support">
+    <plugin id="cordova-plugin-withpods" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
         <pod name="GoogleSignIn" />
-    </plugin> -->
+    </plugin>
 
     <preference name="phonegap-version"                  value="cli-8.1.1" />
     <preference name="orientation"                       value="default" />
