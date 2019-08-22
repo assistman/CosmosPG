@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CosmosPG/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            <state relative-caret-position="124">
+              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -105,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562252746816</updated>
       <workItem from="1562252747996" duration="5015000" />
-      <workItem from="1566460264782" duration="1283000" />
+      <workItem from="1566460264782" duration="1436000" />
     </task>
     <task id="LOCAL-00001" summary="Added cordova-plugin-background-mode@~0.7.2">
       <created>1562253326420</created>
@@ -153,10 +153,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6298000" />
+    <option name="totallyTimeSpent" value="6451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -192,8 +193,8 @@
     <entry file="file://$PROJECT_DIR$/CosmosPG/www/11.basic-category-instruments-mobile.031a226c5f83.js" />
     <entry file="file://$PROJECT_DIR$/CosmosPG/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        <state relative-caret-position="124">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="43" />
         </state>
       </provider>
     </entry>
