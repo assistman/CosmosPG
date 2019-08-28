@@ -46,7 +46,7 @@
             <!-- optionally add private spec sources -->
                 <source url="https://github.com/CocoaPods/Specs"/>
             </pods-config>
-            <!--<pod name="GoogleSignIn" />-->
+            <pod name="GoogleSignIn" />
             <!--<pod name="FBSDKCoreKit" />-->
             <!--<pod name="FBSDKLoginKit" />-->
         </plugin>
@@ -59,10 +59,10 @@
             <!--<param name="APP_ID" value="937249809957668" />-->
             <!--<param name="APP_NAME" value="MARKETS.COM: Indices FX Stocks" />-->
         <!--</plugin>-->
-        <!-- <plugin name="cordova-plugin-googleplus" source="npm">
+        <plugin name="cordova-plugin-googleplus" source="npm">
             <variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-3isu8mp2fid95i2o6sl3pp24t3vforrd" />
             <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />
-        </plugin> -->
+        </plugin>
 
         <icon height="167"  src="resources/icon/ios/AppIcon167x167.png"   width="167" />
         <icon height="76"   src="resources/icon/ios/AppIcon76X76.png"     width="76" />
