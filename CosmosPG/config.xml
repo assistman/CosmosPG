@@ -24,6 +24,7 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
     <plugin name="cordova-plugin-buildinfo" spec="~2.0.2" />
     <plugin name="cordova-plugin-background-mode" spec="~0.7.2" />
+    <plugin name="cordova-plugin-cocoapod-support" />
     <!--<plugin name="cordova-plugin-googleplus" source="npm">-->
         <!--<variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-3isu8mp2fid95i2o6sl3pp24t3vforrd" />-->
         <!--<variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />-->
@@ -45,16 +46,14 @@
     <preference name="DisallowOverscroll"                value="true" />
     <preference name="SuppressesIncrementalRendering"    value="false"/>
     <platform name="ios">
-        <plugin name="cordova-plugin-cocoapod-support">
-            <pods-config ios-min-version="9.0" use-frameworks="true">
+        <pods-config ios-min-version="9.0" use-frameworks="true">
             <!-- optionally add private spec sources -->
-                <source url="https://github.com/CocoaPods/Specs"/>
-            </pods-config>
-            <!--<pod name="GoogleSignIn" />-->
-            <pod name="SVProgressHUD" />
-            <!--<pod name="FBSDKCoreKit" />-->
-            <!--<pod name="FBSDKLoginKit" />-->
-        </plugin>
+            <source url="https://github.com/CocoaPods/Specs"/>
+        </pods-config>
+        <!--<pod name="GoogleSignIn" />-->
+        <pod name="SVProgressHUD" />
+        <!--<pod name="FBSDKCoreKit" />-->
+        <!--<pod name="FBSDKLoginKit" />-->
         <!--<hook type="before_compile" src="hooks/beforeCompileCocoapodsHotfix.js" />-->
         <!--<plugin name="cordova-plugin-facebook4" source="npm">-->
             <!--<param name="APP_ID" value="714426151973006" />-->
