@@ -51,7 +51,7 @@
                 <source url="https://github.com/CocoaPods/Specs"/>
             </pods-config>
             <!--<pod name="GoogleSignIn" />-->
-            <!--<pod name="SVProgressHUD" />-->
+            <pod name="SVProgressHUD" />
             <!--<pod name="FBSDKCoreKit" />-->
             <!--<pod name="FBSDKLoginKit" />-->
         </plugin>
