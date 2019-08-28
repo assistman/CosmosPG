@@ -29,13 +29,15 @@
     <plugin name="phonegap-plugin-push" spec="2.2.3">
         <param name="SENDER_ID" value="21155591901" />
     </plugin>
-    <!--<plugin name="cordova-plugin-cocoapod-support">-->
-        <!--&lt;!&ndash;<pod name="GoogleSignIn" />&ndash;&gt;-->
+    <plugin name="cordova-plugin-cocoapod-support">
+        <!--<pod name="GoogleSignIn" />-->
+        <pod name="FBSDKCoreKit" />
+        <pod name="FBSDKLoginKit" />
         <!--<pod name="cordova-plugin-facebook4" source="npm">-->
             <!--<param name="APP_ID" value="937249809957668" />-->
             <!--<param name="APP_NAME" value="MARKETS.COM: Indices FX Stocks" />-->
         <!--</pod>-->
-    <!--</plugin>-->
+    </plugin>
 
     <preference name="phonegap-version"                  value="cli-8.1.1" />
     <preference name="orientation"                       value="default" />
@@ -51,8 +53,6 @@
     <preference name="SuppressesIncrementalRendering"    value="false"/>
     <platform name="ios">
         <!--<hook type="before_compile" src="hooks/beforeCompileCocoapodsHotfix.js" />-->
-        <hook src="update_pods.sh" type="before_platform_add" />
-        <hook src="run_pods.sh" type="after_platform_add" />
         <!--<plugin name="cordova-plugin-facebook4" source="npm">-->
             <!--<param name="APP_ID" value="714426151973006" />-->
             <!--<param name="APP_NAME" value="Markets.com" />-->
