@@ -6,15 +6,15 @@
     </description>
 
     <name short="MARKETS.COM: Indices. FX. Stocks. Crypto">MARKETS.COM: Indices. FX. Stocks. Crypto</name>
-    <plugin name="cordova-plugin-cocoapod-support">
-        <pods-config ios-min-version="9.0" use-frameworks="true">
-            <!-- optionally add private spec sources -->
-            <source url="https://github.com/CocoaPods/Specs"/>
-        </pods-config>
-        <!--<pod name="GoogleSignIn" />-->
-        <pod name="FBSDKCoreKit" />
-        <pod name="FBSDKLoginKit" />
-    </plugin>
+    <!--<plugin name="cordova-plugin-cocoapod-support">-->
+        <!--<pods-config ios-min-version="9.0" use-frameworks="true">-->
+            <!--&lt;!&ndash; optionally add private spec sources &ndash;&gt;-->
+            <!--<source url="https://github.com/CocoaPods/Specs"/>-->
+        <!--</pods-config>-->
+        <!--&lt;!&ndash;<pod name="GoogleSignIn" />&ndash;&gt;-->
+        <!--<pod name="FBSDKCoreKit" />-->
+        <!--<pod name="FBSDKLoginKit" />-->
+    <!--</plugin>-->
     <plugin name="cordova-plugin-battery-status" />
     <plugin name="cordova-plugin-camera" />
     <plugin name="cordova-plugin-media-capture" />
@@ -35,9 +35,9 @@
     <plugin name="cordova-plugin-buildinfo" spec="~2.0.2" />
     <plugin name="cordova-plugin-background-mode" spec="~0.7.2" />
     <preference name="android-build-tool" value="gradle" />
-    <plugin name="phonegap-plugin-push" spec="2.2.3">
-        <param name="SENDER_ID" value="21155591901" />
-    </plugin>
+    <!--<plugin name="phonegap-plugin-push" spec="2.2.3">-->
+        <!--<param name="SENDER_ID" value="21155591901" />-->
+    <!--</plugin>-->
     <preference name="phonegap-version"                  value="cli-9.0.0" />
     <preference name="orientation"                       value="default" />
     <preference name="target-device"                     value="universal" />
@@ -56,10 +56,10 @@
             <!--<param name="APP_ID" value="714426151973006" />-->
             <!--<param name="APP_NAME" value="Markets.com" />-->
         <!--</plugin>-->
-        <plugin name="cordova-plugin-facebook4" source="npm">
-            <param name="APP_ID" value="937249809957668" />
-            <param name="APP_NAME" value="MARKETS.COM: Indices FX Stocks" />
-        </plugin>
+        <!--<plugin name="cordova-plugin-facebook4" source="npm">-->
+            <!--<param name="APP_ID" value="937249809957668" />-->
+            <!--<param name="APP_NAME" value="MARKETS.COM: Indices FX Stocks" />-->
+        <!--</plugin>-->
         <!-- <plugin name="cordova-plugin-googleplus" source="npm">
             <variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-3isu8mp2fid95i2o6sl3pp24t3vforrd" />
             <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />
@@ -131,17 +131,17 @@
         </array>
     </gap:config-file>
 
-    <gap:config-file platform="ios" parent="CFBundleURLTypes" overwrite="true">
-        <key>CFBundleURLTypes</key>
-        <array>
-            <dict>
-                <key>CFBundleURLSchemes</key>
-                <array>
-                    <string>com.googleusercontent.apps.21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5</string>
-                </array>
-            </dict>
-        </array>
-    </gap:config-file>
+    <!--<gap:config-file platform="ios" parent="CFBundleURLTypes" overwrite="true">-->
+        <!--<key>CFBundleURLTypes</key>-->
+        <!--<array>-->
+            <!--<dict>-->
+                <!--<key>CFBundleURLSchemes</key>-->
+                <!--<array>-->
+                    <!--<string>com.googleusercontent.apps.21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5</string>-->
+                <!--</array>-->
+            <!--</dict>-->
+        <!--</array>-->
+    <!--</gap:config-file>-->
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
         <string>1.0</string>
