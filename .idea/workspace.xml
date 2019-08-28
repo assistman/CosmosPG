@@ -114,7 +114,7 @@
       <workItem from="1562252747996" duration="5015000" />
       <workItem from="1566460264782" duration="4307000" />
       <workItem from="1566911572833" duration="2806000" />
-      <workItem from="1566974801969" duration="6273000" />
+      <workItem from="1566974801969" duration="7110000" />
     </task>
     <task id="LOCAL-00001" summary="Added cordova-plugin-background-mode@~0.7.2">
       <created>1562253326420</created>
@@ -162,7 +162,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20172000" />
+    <option name="totallyTimeSpent" value="21009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
