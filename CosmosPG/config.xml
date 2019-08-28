@@ -6,15 +6,6 @@
     </description>
 
     <name short="MARKETS.COM: Indices. FX. Stocks. Crypto">MARKETS.COM: Indices. FX. Stocks. Crypto</name>
-    <!--<plugin name="cordova-plugin-cocoapod-support">-->
-        <!--<pods-config ios-min-version="9.0" use-frameworks="true">-->
-            <!--&lt;!&ndash; optionally add private spec sources &ndash;&gt;-->
-            <!--<source url="https://github.com/CocoaPods/Specs"/>-->
-        <!--</pods-config>-->
-        <!--&lt;!&ndash;<pod name="GoogleSignIn" />&ndash;&gt;-->
-        <!--<pod name="FBSDKCoreKit" />-->
-        <!--<pod name="FBSDKLoginKit" />-->
-    <!--</plugin>-->
     <plugin name="cordova-plugin-battery-status" />
     <plugin name="cordova-plugin-camera" />
     <plugin name="cordova-plugin-media-capture" />
@@ -22,7 +13,6 @@
     <plugin name="cordova-plugin-contacts" />
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-dialogs" />
-    <plugin name="cordova-plugin-cocoapod-support" />
     <plugin name="cordova-plugin-file" />
     <plugin name="cordova-plugin-file-transfer" />
     <plugin name="cordova-plugin-globalization" />
@@ -51,6 +41,15 @@
     <preference name="DisallowOverscroll"                value="true" />
     <preference name="SuppressesIncrementalRendering"    value="false"/>
     <platform name="ios">
+        <plugin name="cordova-plugin-cocoapod-support">
+            <pods-config ios-min-version="9.0" use-frameworks="true">
+            <!-- optionally add private spec sources -->
+                <source url="https://github.com/CocoaPods/Specs"/>
+            </pods-config>
+            <!--<pod name="GoogleSignIn" />-->
+            <!--<pod name="FBSDKCoreKit" />-->
+            <!--<pod name="FBSDKLoginKit" />-->
+        </plugin>
         <!--<hook type="before_compile" src="hooks/beforeCompileCocoapodsHotfix.js" />-->
         <!--<plugin name="cordova-plugin-facebook4" source="npm">-->
             <!--<param name="APP_ID" value="714426151973006" />-->
