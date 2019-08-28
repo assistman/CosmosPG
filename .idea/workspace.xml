@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CosmosPG/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            <state relative-caret-position="151">
+              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -115,7 +115,7 @@
       <workItem from="1562252747996" duration="5015000" />
       <workItem from="1566460264782" duration="4307000" />
       <workItem from="1566911572833" duration="2806000" />
-      <workItem from="1566974801969" duration="1788000" />
+      <workItem from="1566974801969" duration="2030000" />
     </task>
     <task id="LOCAL-00001" summary="Added cordova-plugin-background-mode@~0.7.2">
       <created>1562253326420</created>
@@ -163,7 +163,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15687000" />
+    <option name="totallyTimeSpent" value="15929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -252,8 +252,8 @@
     <entry file="file://$PROJECT_DIR$/CosmosPG/www/11.basic-category-instruments-mobile.031a226c5f83.js" />
     <entry file="file://$PROJECT_DIR$/CosmosPG/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        <state relative-caret-position="151">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
         </state>
       </provider>
     </entry>

@@ -6,6 +6,11 @@
     </description>
 
     <name short="MARKETS.COM: Indices. FX. Stocks. Crypto">MARKETS.COM: Indices. FX. Stocks. Crypto</name>
+    <plugin name="cordova-plugin-cocoapod-support">
+        <!--<pod name="GoogleSignIn" />-->
+        <pod name="FBSDKCoreKit" />
+        <pod name="FBSDKLoginKit" />
+    </plugin>
     <plugin name="cordova-plugin-battery-status" />
     <plugin name="cordova-plugin-camera" />
     <plugin name="cordova-plugin-media-capture" />
@@ -29,17 +34,7 @@
     <plugin name="phonegap-plugin-push" spec="2.2.3">
         <param name="SENDER_ID" value="21155591901" />
     </plugin>
-    <plugin name="cordova-plugin-cocoapod-support">
-        <!--<pod name="GoogleSignIn" />-->
-        <pod name="FBSDKCoreKit" />
-        <pod name="FBSDKLoginKit" />
-        <!--<pod name="cordova-plugin-facebook4" source="npm">-->
-            <!--<param name="APP_ID" value="937249809957668" />-->
-            <!--<param name="APP_NAME" value="MARKETS.COM: Indices FX Stocks" />-->
-        <!--</pod>-->
-    </plugin>
-
-    <preference name="phonegap-version"                  value="cli-8.1.1" />
+    <preference name="phonegap-version"                  value="cli-9.0.0" />
     <preference name="orientation"                       value="default" />
     <preference name="target-device"                     value="universal" />
     <preference name="fullscreen"                        value="true" />
