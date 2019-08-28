@@ -3,6 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="3fe46ee9-2c0c-424b-aa7d-5e1d51012343" name="Default Changelist" comment="Updated indigo files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/brands/TradeTech/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/brands/TradeTech/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/brands/cfdglobal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/brands/cfdglobal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/brands/clicktrades/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/brands/clicktrades/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/brands/finexo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/brands/finexo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/brands/finq/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/brands/finq/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/brands/forex4group/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/brands/forex4group/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/brands/globtrex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/brands/globtrex/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/brands/markets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/brands/markets/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/brands/trade/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/brands/trade/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/deposit.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/deposit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/deposit_failed.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/deposit_failed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/fonts/icons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/fonts/icons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/fonts/icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/fonts/icons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/fonts/icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/fonts/icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/fonts/icons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/fonts/icons.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/www/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -114,7 +130,7 @@
       <workItem from="1562252747996" duration="5015000" />
       <workItem from="1566460264782" duration="4307000" />
       <workItem from="1566911572833" duration="2806000" />
-      <workItem from="1566974801969" duration="5740000" />
+      <workItem from="1566974801969" duration="5974000" />
     </task>
     <task id="LOCAL-00001" summary="Added cordova-plugin-background-mode@~0.7.2">
       <created>1562253326420</created>
@@ -162,7 +178,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19639000" />
+    <option name="totallyTimeSpent" value="19873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
