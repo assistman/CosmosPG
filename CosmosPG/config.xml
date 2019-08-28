@@ -64,9 +64,7 @@
             <!--<variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />-->
         <!--</plugin>-->
         <pod id="Lock" fix-bundle-path="Lock/Auth0.bundle"/>
-
-        
-        <plugin name="cordova-plugin-facebook4" source="npm">
+        <plugin name="cordova-plugin-facebook4" spec="5.0.0">
             <param name="APP_ID" value="937249809957668" />
             <param name="APP_NAME" value="MARKETS.COM: Indices FX Stocks" />
         </plugin>
