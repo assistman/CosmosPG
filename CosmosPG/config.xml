@@ -66,7 +66,7 @@
             <param name="APP_NAME" value="MARKETS.COM: Indices FX Stocks" />
         </plugin>
         <plugin name="cordova-plugin-googleplus" spec="7.0.2">
-            <variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-3isu8mp2fid95i2o6sl3pp24t3vforrd" />
+            <variable name="REVERSED_CLIENT_ID"        value="21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5.apps.googleusercontent.com" />
             <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />
         </plugin>
         <icon height="167"  src="resources/icon/ios/AppIcon167x167.png"   width="167" />
