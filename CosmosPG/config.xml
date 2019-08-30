@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<widget id="com.marketstrader.cosmos.pg" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.marketstrader.cosmos.pg" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <description>
         TradeTech Markets LIMITED
     </description>
 
-    <name short="MARKETS.COM: Indices. FX. Stocks. Crypto">MARKETS.COM: Indices. FX. Stocks. Crypto</name>
+    <name short="MARKETS.COM: Indices FX Stocks">MARKETS.COM: Indices FX Stocks</name>
     <plugin name="cordova-plugin-battery-status" />
     <plugin name="cordova-plugin-camera" />
     <plugin name="cordova-plugin-media-capture" />
     <plugin name="cordova-plugin-console" />
-    <plugin name="cordova-plugin-contacts" />
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-dialogs" />
     <plugin name="cordova-plugin-file" />
@@ -52,14 +51,18 @@
         <pod name="FBSDKCoreKit" />
         <pod name="FBSDKLoginKit" />
         <pod id="Lock" fix-bundle-path="Lock/Auth0.bundle"/>
+        
         <plugin name="cordova-plugin-facebook4" spec="5.0.0">
             <param name="APP_ID" value="937249809957668" />
             <param name="APP_NAME" value="MARKETS.COM: Indices FX Stocks" />
         </plugin>
+        
         <plugin name="cordova-plugin-googleplus" spec="7.0.2">
             <variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5" />
             <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyAWY4Nq8txh_L4g_s2AVEBs43gfH_1_XwA" />
         </plugin>
+        
+<!--        Application Icons-->
         <icon height="167"  src="resources/icon/ios/AppIcon167x167.png"   width="167" />
         <icon height="76"   src="resources/icon/ios/AppIcon76X76.png"     width="76" />
         <icon height="152"  src="resources/icon/ios/AppIcon76X76@2x.png"  width="152" />
@@ -83,33 +86,28 @@
         <splash src="resources/splash/ios/Default@3x~iphone~comany.png" />
         <splash src="resources/splash/ios/Default@3x~iphone~comcom.png" />
 
+<!--        Network access settings-->
         <access origin='*' allows-arbitrary-loads-for-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
         <!-- Contact Us QA -->
         <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact Us Prod -->
         <allow-intent href="https://www.markets.com/contact-phone/*" />
-
         <!-- MetaTrader Trading Conditions QA -->
         <allow-intent href="https://beta-global-qa.markets.com/metatrader-trading-conditions/*" />
         <!-- MetaTrader Trading Conditions Prod -->
         <allow-intent href="https://www.markets.com/metatrader-trading-conditions/*" />
-
         <!-- Account Statement  QA -->
         <allow-intent href="https://cosmos-qa-live.markets.com/dxdeal-report/*" />
         <!-- Account Statement  Prod -->
         <allow-intent href="https://live-trader.markets.com/dxdeal-report/*" />
-
         <!-- Legal documents  Prod -->
         <allow-intent href="https://beta-global-qa.markets.com/regulation-and-legal-pack/*" />
         <!-- Legal documents  Prod -->
         <allow-intent href="https://www.markets.com/regulation-and-legal-pack/*" />
-
         <!-- Contact phone  QA -->
         <allow-intent href="https://beta-global-qa.markets.com/contact-phone/*" />
         <!-- Contact phone Prod -->
         <allow-intent href="https://www.markets.com/contact-phone/*" />
-
-        <allow-navigation href="*" />
         <allow-intent href="telprompt:*" />
         <allow-intent href="tel:*" />
         <allow-intent href="sms:*" />
@@ -117,30 +115,29 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <allow-intent href="file:*" />
+        <allow-navigation href="*" />
     </platform>
-
+    
+<!--    Info.plist file settings-->
     <gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
         <array>
             <string>fetch</string>
             <string>remote-notification</string>
         </array>
     </gap:config-file>
-
-    <!--<gap:config-file platform="ios" parent="CFBundleURLTypes" overwrite="true">-->
-        <!--<key>CFBundleURLTypes</key>-->
-        <!--<array>-->
-            <!--<dict>-->
-                <!--<key>CFBundleURLSchemes</key>-->
-                <!--<array>-->
-                    <!--<string>com.googleusercontent.apps.21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5</string>-->
-                <!--</array>-->
-            <!--</dict>-->
-        <!--</array>-->
-    <!--</gap:config-file>-->
-
-    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>1.0</string>
+    
+    <gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
+        <string>It will give you an option to browse the document photos on the device.</string>
     </gap:config-file>
+    
+    <gap:config-file platform="ios" parent="NSCameraUsageDescription">
+        <string>It will give possibility to make a photo of the document</string>
+    </gap:config-file>
+    
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
+        <string>1.1</string>
+    </gap:config-file>
+ 
 </widget>
 
 
