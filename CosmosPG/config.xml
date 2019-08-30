@@ -116,24 +116,22 @@
         <allow-intent href="itms-apps:*" />
         <allow-intent href="file:*" />
         <allow-navigation href="*" />
+        <config-file target="*-Info.plist" parent="UIBackgroundModes">
+            <array>
+                <string>fetch</string>
+                <string>remote-notification</string>
+            </array>
+        </config-file>
+        
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <string>It will give you an option to browse the document photos on the device.</string>
+        </config-file>
+        
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>It will give possibility to make a photo of the document</string>
+        </config-file>
+        
     </platform>
-    
-<!--    Info.plist file settings-->
-    <gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
-        <array>
-            <string>fetch</string>
-            <string>remote-notification</string>
-        </array>
-    </gap:config-file>
-    
-    <gap:custom-config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
-        <string>It will give you an option to browse the document photos on the device.</string>
-    </gap:config-file>
-    
-    <gap:custom-config-file platform="ios" parent="NSCameraUsageDescription">
-        <string>It will give possibility to make a photo of the document</string>
-    </gap:config-file>
-    
     <gap:custom-config-file platform="ios" parent="CFBundleShortVersionString">
         <string>1.1</string>
     </gap:config-file>
