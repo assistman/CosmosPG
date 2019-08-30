@@ -126,15 +126,15 @@
         </array>
     </gap:config-file>
     
-    <gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
+    <gap:custom-config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
         <string>It will give you an option to browse the document photos on the device.</string>
     </gap:config-file>
     
-    <gap:config-file platform="ios" parent="NSCameraUsageDescription">
+    <gap:custom-config-file platform="ios" parent="NSCameraUsageDescription">
         <string>It will give possibility to make a photo of the document</string>
     </gap:config-file>
     
-    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
+    <gap:custom-config-file platform="ios" parent="CFBundleShortVersionString">
         <string>1.1</string>
     </gap:config-file>
  
