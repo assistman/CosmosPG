@@ -131,10 +131,11 @@
             <string>It will give possibility to make a photo of the document</string>
         </config-file>
         
+        <config-file target="*-Info.plist" parent="CFBundleShortVersionString">
+            <string>1.1</string>
+        </config-file>
     </platform>
-    <gap:custom-config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>1.1</string>
-    </gap:config-file>
+
  
 </widget>
 
