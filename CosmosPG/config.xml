@@ -43,8 +43,6 @@
     <preference name="SuppressesIncrementalRendering"    value="false"/>
     <platform name="ios">
         <pods-config ios-min-version="9.0" use-frameworks="true">
-            <!-- optionally add private spec sources -->
-<!--            <source url="https://github.com/CocoaPods/Specs"/>-->
         </pods-config>
         <!--<pod name="GoogleSignIn" />-->
         <pod name="SVProgressHUD" />
@@ -135,8 +133,6 @@
             <string>1.2</string>
         </config-file>
     </platform>
-
- 
 </widget>
 
 
