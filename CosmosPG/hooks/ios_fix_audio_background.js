@@ -5,6 +5,8 @@ var find = require("find");
 var colors = require("colors");
 var path = __dirname + "/../platforms/ios/";
 
+console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
+
 find.file(/\-Info\.plist$/, path, function(files) {
     if(files.length > 1) {
         console.log("Multiple possible plist files found".red);
