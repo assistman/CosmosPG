@@ -42,9 +42,6 @@
     <preference name="DisallowOverscroll"                value="true" />
     <preference name="SuppressesIncrementalRendering"    value="false"/>
     <platform name="ios">
-        <hook src="hooks/ios_fix_audio_background.js" type="after_platform_add" />
-        <hook src="hooks/ios_fix_audio_background.js" type="before_run" />
-        <hook src="hooks/ios_fix_audio_background.js" type="after_build" />
         <pods-config ios-min-version="9.0" use-frameworks="true">
         </pods-config>
         <pod name="GoogleSignIn" />
