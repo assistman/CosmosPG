@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe46ee9-2c0c-424b-aa7d-5e1d51012343" name="Default Changelist" comment="Updated indigo files.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CosmosPG/GoogleService-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/GoogleService-Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CosmosPG/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CosmosPG/config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CosmosPG/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="52" />
+            <state relative-caret-position="247">
+              <caret line="59" column="133" selection-start-line="59" selection-start-column="133" selection-end-line="59" selection-end-column="133" />
             </state>
           </provider>
         </entry>
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CosmosPG/GoogleService-Info.plist">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="56" />
+            <state relative-caret-position="100">
+              <caret line="5" column="92" lean-forward="true" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -44,6 +44,7 @@
       <list>
         <option value="$PROJECT_DIR$/CosmosPG/hooks/ios_fix_audio_background.js" />
         <option value="$PROJECT_DIR$/CosmosPG/config.xml" />
+        <option value="$PROJECT_DIR$/CosmosPG/GoogleService-Info.plist" />
       </list>
     </option>
   </component>
@@ -128,7 +129,7 @@
       <workItem from="1566911572833" duration="2806000" />
       <workItem from="1566974801969" duration="9941000" />
       <workItem from="1567065258337" duration="7097000" />
-      <workItem from="1567357476385" duration="5341000" />
+      <workItem from="1567357476385" duration="5953000" />
     </task>
     <task id="LOCAL-00001" summary="Added cordova-plugin-background-mode@~0.7.2">
       <created>1562253326420</created>
@@ -176,11 +177,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36278000" />
+    <option name="totallyTimeSpent" value="36890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -291,15 +291,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CosmosPG/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="247">
+          <caret line="59" column="133" selection-start-line="59" selection-start-column="133" selection-end-line="59" selection-end-column="133" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CosmosPG/GoogleService-Info.plist">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="56" />
+        <state relative-caret-position="100">
+          <caret line="5" column="92" lean-forward="true" selection-start-line="5" selection-start-column="92" selection-end-line="5" selection-end-column="92" />
         </state>
       </provider>
     </entry>
