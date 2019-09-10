@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-    <widget id="com.marketstrader.cosmos.pg" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-        <description>
-            TradeTech Markets LIMITED
-        </description>
+<widget id="com.marketstrader.cosmos.pg" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <description>
+        TradeTech Markets LIMITED
+    </description>
         
         <name short="MARKETS.COM: Indices FX Stocks">MARKETS.COM: Indices FX Stocks</name>
         <plugin name="cordova-plugin-battery-status" />
@@ -26,6 +25,7 @@
         <plugin name="cordova-plugin-cocoapod-support" />
         
         <preference name="android-build-tool" value="gradle" />
+        <preference name="android-targetSdkVersion" value="28" />
         <plugin name="phonegap-plugin-push" spec="2.2.3">
             <param name="SENDER_ID" value="21155591901" />
         </plugin>
@@ -133,6 +133,4 @@
                 <string>1.2</string>
             </config-file>
         </platform>
-        
-        
-    </widget>
+</widget>
