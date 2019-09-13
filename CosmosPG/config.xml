@@ -10,7 +10,7 @@
         <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
     
-<!--    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />-->
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <plugin name="cordova-plugin-battery-status" />
     <plugin name="cordova-plugin-camera" />
     <plugin name="cordova-plugin-media-capture" />
