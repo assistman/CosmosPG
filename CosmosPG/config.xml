@@ -67,6 +67,9 @@
         </plugin>
         
 <!--        Application Icons-->
+        <icon height="20"   src="resources/icon/ios/AppIcon20X20.png"     width="20" />
+        <icon height="40"   src="resources/icon/ios/AppIcon20X20@2x.png"  width="40" />
+        <icon height="60"   src="resources/icon/ios/AppIcon20X20@3x.png"  width="60" />
         <icon height="167"  src="resources/icon/ios/AppIcon167x167.png"   width="167" />
         <icon height="76"   src="resources/icon/ios/AppIcon76X76.png"     width="76" />
         <icon height="152"  src="resources/icon/ios/AppIcon76X76@2x.png"  width="152" />
