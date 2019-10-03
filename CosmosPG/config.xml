@@ -48,7 +48,7 @@
     <preference name="DisallowOverscroll"                value="true" />
     <preference name="SuppressesIncrementalRendering"    value="false"/>
     <plugin name="cordova-plugin-facebook4" spec="5.0.0">
-        <param name="APP_ID" value="937249809957668" />
+        <param name="APP_ID" value="2381083715437078" />
         <param name="APP_NAME" value="MARKETS.COM: Indices FX Stocks" />
     </plugin>
     
