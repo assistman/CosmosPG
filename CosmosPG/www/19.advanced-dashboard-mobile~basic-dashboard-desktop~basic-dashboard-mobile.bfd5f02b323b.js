@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{2230:function(n,t,e){"use strict";var c=e(2),o=(e(0),e(4)),r=e(61);t.a=Object(o.connect)((function(n){return{open:Object(r.getInstrumentDetailsState)(n)===c.OPEN}}))((function(n){var t=n.open,e=n.invert,c=n.children;return(e?!t:t)?c:null}))}}]);
