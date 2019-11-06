@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<widget id="com.marketstrader.cosmos.pg" version="1.76.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.marketstrader.tradetech" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TradeTech</name>
     <description>
         TradeTech Markets LIMITED
     </description>
-
-    <name short="MARKETS.COM: Indices FX Stocks">MARKETS.COM: Indices FX Stocks</name>
     <feature name="CDVWKWebViewEngine">
         <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
-    
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
     <plugin name="cordova-plugin-battery-status" />
     <plugin name="cordova-plugin-camera" />
@@ -32,9 +29,7 @@
 
     <preference name="android-targetSdkVersion" value="28" />
     <preference name="android-build-tool" value="gradle" />
-    <plugin name="phonegap-plugin-push" spec="2.2.3">
-        <param name="SENDER_ID" value="21155591901" />
-    </plugin>
+    
     <preference name="phonegap-version"                  value="cli-9.0.0" />
     <preference name="orientation"                       value="default" />
     <preference name="target-device"                     value="universal" />
@@ -47,26 +42,12 @@
     <preference name="GapBetweenPages"                   value="0"/>
     <preference name="DisallowOverscroll"                value="true" />
     <preference name="SuppressesIncrementalRendering"    value="false"/>
-    <plugin name="cordova-plugin-facebook4" spec="5.0.0">
-        <param name="APP_ID" value="2381083715437078" />
-        <param name="APP_NAME" value="MARKETS.COM: Indices FX Stocks" />
-    </plugin>
     
-    <plugin name="cordova-plugin-googleplus" spec="7.0.2">
-        <variable name="REVERSED_CLIENT_ID"        value="com.googleusercontent.apps.21155591901-q9e2cs05k7td0i3veg110r2lbdmut1k5" />
-        <variable name="WEB_APPLICATION_CLIENT_ID" value="AIzaSyCqRl_-q57A6LRNibxLeg-mH6mZWbtY4oA" />
-    </plugin>
     <platform name="ios">
-        <resource-file src="GoogleService-Info.plist" />
         <pods-config ios-min-version="9.0" use-frameworks="true">
         </pods-config>
-        <pod name="GoogleSignIn" />
         <pod name="SVProgressHUD" />
-        <pod name="FBSDKCoreKit" />
-        <pod name="FBSDKLoginKit" />
         <pod id="Lock" fix-bundle-path="Lock/Auth0.bundle"/>
-        
-
         
 <!--        Application Icons-->
         <icon height="20"   src="resources/icon/ios/AppIcon20X20.png"     width="20" />
@@ -141,10 +122,7 @@
         </config-file>
         
         <config-file target="*-Info.plist" parent="CFBundleShortVersionString">
-            <string>1.76.0</string>
+            <string>1.1.0</string>
         </config-file>
     </platform>
 </widget>
-
-
-
