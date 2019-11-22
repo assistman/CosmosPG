@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<widget id="com.marketstrader.cosmos.pg" version="1.76.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.marketstrader.cosmos.pg" version="1.77.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <description>
         TradeTech Markets LIMITED
     </description>
@@ -141,7 +141,7 @@
         </config-file>
         
         <config-file target="*-Info.plist" parent="CFBundleShortVersionString">
-            <string>1.76.0</string>
+            <string>1.77.0</string>
         </config-file>
     </platform>
 </widget>
